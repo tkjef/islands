@@ -1,0 +1,44 @@
+best part is security wise, all content is stored on local users computer in text files that are searched. can sync files from one device to another (which is really just running the script from a new device and syncing it with their pre-defined logins.
+
+no excessive server capacity needed.
+
+export articles from pocket, evernote, instapaper, rss feeds, chrome bookmarks, firefox bookmarks, ie bookmarks, opera bookmarks, hacker news posts,local files or directories
+grab urls from all of these
+scrape urls and grab html content
+assign url,html content to individual files locally (means different devices have to download the content for themselves and also we don't have access to any data)
+allow assignable files or directories to be searched as well (limited to txt,doc,docx files, maybe everything?)
+ui to search articles,files>drill down to file types filters,directories,file names
+	-checkbox with each of those if user would only like to search some
+search results
+	-url (link to view in browser) or file path if local file
+	-exact line and line content of search term match
+	-slimmed down, simplified url html content output
+	-switch/view through multiple search results easily
+	-favorite search results
+	-tag search results in folder structure with parent/child tags
+	-show recent searches easily
+	-web,android,iphone,desktop clients for windows & mac
+	keep hidden, don't advertise, show after login.. terminal(linux,mac,windows?),terminal in web
+
+settings:
+frequency of automated updates to scraping (daily, weekly, hourly?)
+manage content
+	-allows for organizing tags/bookmarks (think about what to call)
+	-manually go to different articles or files
+	-amount of recent searches to keep (default 100) can go up to 500
+set default checked search types (articles,files>drill down to file types filters,directories>default to user home directory but recommend specific folders for faster search results/performance gains,file names but recommend leave off by default for faster search results/performance gains)
+recent searches
+favorite articles
+tags/bookmarks (think about what to call)
+
+pricing:
+free, but once get to minimum 20,000 active users charge $2.99/month (get at least 5,000 at $2.99 = $10,000)
+
+most important tech:
+scraping,ui,cross platform,speed
+
+python,tk,django,postgresql,bootstrap?,Kivy|PyGUI|libavg|wxPython|Tkinter(probably)
+
+local file storage? files,sqllite
+searches: golang
+

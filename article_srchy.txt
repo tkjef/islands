@@ -1,0 +1,77 @@
+search and display results as they come up and allow to stop/restart searching more with ease. also, show what has and hasn't been searched out of the reqested search areas.
+
+allow to host urls,files,search history and notes on cloud with pro
+stored in postgres on aws in master, slave, slave setups replicated on 4 datacenters
+on write/update to user's data > wait 3 seconds (to make sure no other writes come > push user data out in json files to cdn)
+python,django on ubuntu 14.04
+stripe
+puppet,nagios,nagios log server
+jenkins?
+
+
+
+url,file(named as title of url with content being html of url page)
+
+
+
+
+best part is security wise, all content is stored on local users computer in text files that are searched. can sync files from one device to another (which is really just running the script from a new device and syncing it with their pre-defined logins.
+
+no excessive server capacity needed.
+
+export articles from pocket, evernote, instapaper, rss feeds, chrome bookmarks, firefox bookmarks, ie bookmarks, opera bookmarks, hacker news posts,local files or directories, google docs
+grab urls from all of these
+scrape urls and grab html content
+assign url,html content to individual files locally (means different devices have to download the content for themselves and also we don't have access to any data)
+allow assignable files or directories to be searched as well (limited to txt,doc,docx files, maybe everything?)
+ui to search articles,files>drill down to file types filters,directories,file names
+	-checkbox with each of those if user would only like to search some
+search results
+	-url (link to view in browser) or file path if local file
+	-exact line and line content of search term match
+	-slimmed down, simplified url html content output
+	-switch/view through multiple search results easily
+	-favorite search results
+	-tag search results in folder structure with parent/child tags
+	-show recent searches easily
+	-web,android,iphone,desktop clients for windows & mac
+	keep hidden, don't advertise, show after login.. terminal(linux,mac,windows?),terminal in web
+
+settings:
+frequency of automated updates to scraping (daily, weekly, hourly?)
+manage content
+	-allows for organizing tags/bookmarks (think about what to call)
+	-manually go to different articles or files
+	-amount of recent searches to keep (default 100) can go up to 500
+set default checked search types (articles,files>drill down to file types filters,directories>default to user home directory but recommend specific folders for faster search results/performance gains,file names but recommend leave off by default for faster search results/performance gains)
+recent searches
+favorite articles
+tags/bookmarks (think about what to call)
+
+pricing:
+beta - everything is free
+
+launch - 
+unlock pro free for 30 days, free for 2 services & pro is unlimited services, $2.99/month (get at least 5,000 at $2.99 = $10,000) or $20/yr.
+-another part of pro is cloud hosting which allows sync of local files on all connected devices to be searched by all connected devices
+
+
+
+most important tech:
+scraping,ui,cross platform,speed
+
+python,tk,django,postgresql,bootstrap?,Kivy|PyGUI|libavg|wxPython|Tkinter(probably)
+
+local file storage? files,sqllite
+searches: golang
+
+
+
+website: python,django,postgresql,webfaction (settings(pre-logged in services,pre-set default search parameters which can be different for each device), frequency controls, remove connected devices, wipe data from devices)
+desktop(pc,mac,linux): golang,sqlite,gtk|gotk3,bleve
+android app: look into using go, if not, just regular app,sqllite
+iphone app: swift, sqllite
+chrome & firefox extensions to search (only search! not for saving as that's what our ecosystem of integrated app partners is for!!)
+android search widget
+
+possible future applications: search database dumps,github projects,full disks,log messages
