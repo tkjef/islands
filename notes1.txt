@@ -1,0 +1,26 @@
+snsu.org
+
+test custom python script vs. 
+curl -o vs. 
+wget --user-agent --input-file vs.
+go script
+
+allow opening in elinks, chrome or firefox
+
+put on gitlab
+
+python ../srchurls-0.1/url_scraper.py ../test_data/20170716.txt
+
+commands:
+
+snsurl
+
+--save|-sa  #runs command to save url content to local files
+
+--search|-s  #runs command to search local file url content, shows results in tmux right vertical pane, displays highlighted result html content in elinks
+
+--searchresults|-sr  #runs command to display search results on commandline
+
+--searchbrowse|-sb  #runs command to browse through search results on browser
+
+--help|-h  #help info with all commands
